@@ -1,0 +1,13 @@
+/**
+ * @file common style
+ * @author liuxja<liuxj@geovis.com.cn>
+ */
+
+.hide {
+    display: none;
+}
+
+$vw_base: 375px;
+@function vw($px) {
+    @return ($px / $vw_base) * 100vw;
+}
